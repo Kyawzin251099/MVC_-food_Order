@@ -1,0 +1,35 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.order_table {
+  background-color: #fbc8d5;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+  margin-left: 3%;
+  text-align: center;
+}
+.order_table th {
+  border-bottom: 1px solid #364043;
+  background: #bcc5ce;
+  color: black;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+.order_table td {
+  border-bottom: 1px solid #364043;
+  background: #adedd5;
+  color: black;
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
